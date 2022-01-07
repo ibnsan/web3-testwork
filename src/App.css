@@ -1,0 +1,116 @@
+.app {
+  display: flex;
+  margin: 5%;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #f1f1f1;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 2px 20px #d1d1d1;
+}
+
+.smButtons {
+  border: none;
+  border-radius: 50px;
+  min-width: 150px;
+  color: black;
+  font-size: 14px;
+  cursor: pointer;
+  height: 27px;
+  transition: 0500ms;
+}
+
+.buttons {
+  padding: 15px;
+  border: none;
+  border-radius: 50px;
+  min-width: 150px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  height: 50px;
+  transition: 0500ms;
+}
+
+.connectWalletButton {
+  background: rgb(32, 129, 226);
+}
+.connectWalletButton:hover {
+  background: rgb(29, 116, 204);
+  transition: 0500ms;
+}
+
+.mintButton {
+  background: orange;
+}
+.mintButton:hover {
+  background: rgb(216, 143, 7);
+  transition: 0500ms;
+}
+
+.closeButton{
+  background: rgb(199 199 199);
+}
+.closeButton:hover {
+  background: rgb(173, 173, 173);
+  transition: 0500ms;
+}
+
+.siteBody{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bodyContent{
+  display: flex;
+  flex-direction: column;
+}
+
+.bodyContractData{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.bodyMint{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.bodyMintData{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.bodyTxt{
+  word-break: break-all;
+}
+
+.trxBlock{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background: #e3e3e3;
+  margin: 20px;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 2px 20px #bdbdbd;
+}
+
+.trxHeadline{
+  color:rgb(8 195 49);
+}
+
+.trxAction{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
